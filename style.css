@@ -177,8 +177,14 @@ p {
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     header nav ul li{
         display: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .fortune {
+        height: 50vh;
     }
 }
