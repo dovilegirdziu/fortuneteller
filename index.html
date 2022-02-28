@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&family=League+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <video id="background-video" autoplay loop muted>
+            <source src="vid/MikhailNilov.mp4" type="video/mp4">
+          </video>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#forToday">Today's Fortune Teller</a></li>
+                <li><a href="#birthMonth">Your Birthday's Fortune</a></li>
+                <li><a href="#compl">Feeling Down?</a></li>
+            </ul>
+        </nav>
+        <h1>Find out your fortune!</h1>
+    </header>
+    <section class="fortune" id="forToday">
+        <h2>Today's Fortune</h2>
+        <a href="#">Tell</a>
+    </section>
+    <section class="birth" id="birthMonth">
+            <label for="birhtday">Enter the month you were born in:</label>
+            <input type="text" name="birthday" id="input" value=" ">
+            <h2 class="bFortune">Your Birthday's fortune</h2>
+    </section>
+    <secton class="compliments" id="compl">
+        <h3 id="down">Feeling down today?</h3>
+        <h4 class="getCompl">Get a Compliment!</h4>
+        <p></p>
+    </secton>
+    <script src="script.js"></script>
+</body>
+</html>
