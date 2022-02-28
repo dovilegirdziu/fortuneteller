@@ -16,11 +16,7 @@ function getRandomFortune() {
 // it's a TODAYS fortune so we don't want to call it everytime it's clicked
 const fortuneToday = getRandomFortune();
 
-// function bgChange() {
-//     document.querySelector('#background-video').src = getRandomVideo();
-// }
-
-bgVideos = ["./vid/MiguelÁPadriñán.mp4", "./vid/MikhailNilov.mp4", "./vid/RuslanKhmelevsky1.mp4", "./vid/RuslanKhmelevsky.mp4", "./vid/AnnaTarazevich.mp4", "./vid/cottonbro.mp4"]
+bgVideos = [ "./vid/MikhailNilov.mp4", "./vid/MiguelÁPadriñán.mp4", "./vid/cottonbro.mp4"]
 
 function getRandomVideo() {
     return bgVideos[Math.floor(Math.random()*bgVideos.length)];
