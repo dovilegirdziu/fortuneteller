@@ -113,6 +113,8 @@ input {
     height: 2rem;
     width: 30%;
     font-weight: 300;
+    font-size: larger;
+    height: 10vh;
     border: none;
     border-radius: 6px;
 }
@@ -153,7 +155,7 @@ p {
     font-size: 2rem;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 900px) {
     nav, h2, p, .fortune, .birth {
         padding: 0 2rem;
     }
@@ -166,7 +168,17 @@ p {
         font-size: 1rem;
     }
 
+    .fortune h2 {
+        margin: 2rem;
+    }
+
     input {
         width: 40vw;
+    }
+}
+
+@media all and (max-width: 500px) {
+    header nav ul li{
+        display: none;
     }
 }
