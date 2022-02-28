@@ -184,7 +184,10 @@ p {
     h1 {
         font-size: 3rem;
     }
-    .fortune {
-        height: 50vh;
+    .fortune, .fortune a {
+       font-size: 1.5rem;
+    }
+    .birth {
+        height: 100vh;
     }
 }
